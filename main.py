@@ -8,7 +8,6 @@ graphql_app = GraphQL(schema)
 
 fastapi_app = FastAPI()
 fastapi_app.add_route("/graphql", graphql_app)
-fastapi_app.add_route("/graphql", graphql_app)
 fastapi_app.add_websocket_route("/graphql", graphql_app)
 
 @fastapi_app.get("/book")
