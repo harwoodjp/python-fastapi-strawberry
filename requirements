@@ -2,3 +2,4 @@ fastapi
 json
 uvicorn[standard]
 strawberry-graphql[debug-server]
+peewee

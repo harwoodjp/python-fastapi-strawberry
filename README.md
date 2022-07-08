@@ -1,5 +1,5 @@
-* [FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/) + [Strawberry](https://strawberry.rocks/docs) + SQLite
-* Async API server + RDBMS + GraphQL
+* [FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/) + SQLite + [Peewee](http://docs.peewee-orm.com/en/latest/peewee/quickstart.html) + [Strawberry](https://strawberry.rocks/docs) 
+* Async API server + RDBMS + ORM + GraphQL
 
 Run FastAPI
 * `uvicorn main:fastapi_app --reload --port 8081`
